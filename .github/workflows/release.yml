@@ -1,18 +1,16 @@
-name: Notify Discord on Release
-
-on:
-  release:
-    types: [published]
-
+name: Discord Notification
+on: [push]
 jobs:
-  discordNotification:
+  notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify via Releasify
-        uses: teneplaysofficial/releasify-action@v1
+      - name: Send custom message to Discord
+        uses: cabreraevil/discord-notify-action@v1
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          title: "🚀 New Release!"
-          footer: "Published by CI"
-          username: "ReleaseBot"
-          avatar_url: "https://cdn.example.com/my-bot.png"
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}
+          username: 'GitHub Bot'
+          # Customize your message here
+          message: "New commit pushed to ${{ github.repository }} by ${{ github.actor }}! 🚀"
+          embed_title: "Commit Details"
+          embed_description: "View changes: ${{ github.event.head_commit.url }}"
+          embed_color: '#00FF00'
