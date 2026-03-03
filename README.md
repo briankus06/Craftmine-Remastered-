@@ -8,7 +8,7 @@ This repository contains the .zip file that you can download and move into your 
 
 ## Need Help?
 
-If you are struggling on how to download, unpackage, and move the mods into Minecraft, the below YouTube video will have instructions on how to facilitate that. 
+If you are struggling on how to download, unpackage, and move the mods into Minecraft, the below YouTube video will have instructions on how to facilitate that:
 
 <!-- INSERT LINK HERE -->
 
