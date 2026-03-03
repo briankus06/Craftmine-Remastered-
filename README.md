@@ -10,7 +10,7 @@ This repository contains the .zip file that you can download and move into your 
 
 If you are struggling on how to download, unpackage, and move the mods into Minecraft, the below YouTube video will have instructions on how to facilitate that:
 
-<!-- INSERT LINK HERE -->
+https://youtu.be/ZPFuigFVDLM
 
 This is the website link for the [Fabric Loader](https://fabricmc.net) which is also required. The Minecraft version we are using is **1.21.10**, so make sure you adjust that in the fabric client or else the modpack won't work!
 
