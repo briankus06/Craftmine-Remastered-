@@ -16,3 +16,4 @@ This is the website link for the [Fabric Loader](https://fabricmc.net) which is 
 
 If you require further assistance, please reach out to trashtcan.  
 
+DELETE AFTER
