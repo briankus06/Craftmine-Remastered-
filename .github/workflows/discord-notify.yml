@@ -7,7 +7,7 @@ jobs:
       - name: Send custom message to Discord
         uses: cabreraevil/discord-notify-action@v1
         with:
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}
+          webhook_url: ${{ https://discord.com/api/webhooks/1478233484576423976/WbRa_ZsPNuTlzgCN9MGW7TaUqCBaDqgX0rErKaDKp_EBx7ltl0P_JRbZAwsgTvO9CirY }}
           username: 'GitHub Bot'
           # Customize your message here
           message: "New commit pushed to ${{ github.repository }} by ${{ github.actor }}! 🚀"
